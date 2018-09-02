@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+cmake = "*"
+ninja = "*"
+colorama = "*"
+logbook = "*"
+
+[dev-packages]
+pytest = "*"
+pytest-runner = "*"
+pytest-logbook = "*"
+pytest-datadir = "*"
+sphinx = "*"
+
+[requires]
+python_version = "3.7"

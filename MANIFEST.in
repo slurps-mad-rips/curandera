@@ -1,0 +1,8 @@
+include Readme.rst
+include License
+graft tests
+graft docs
+graft src
+
+global-exclude *.py[cd] .DS_Store
+global-exclude *.eggs
